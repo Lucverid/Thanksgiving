@@ -1,0 +1,24 @@
+Thanksgiving v3.9.9 — QR Flow + Video Final Editor + Duration Sync
+
+QR ADMIN
+- General Experience is now the default QR type.
+- General QR does not ask Admin to choose an occasion; customer chooses from enabled occasions.
+- Dedicated Occasion remains optional for Birthday/Wedding/etc.
+- List QR now has Download QR on each row and in the saved preview.
+- List QR edit can switch General/Dedicated.
+
+VIDEO
+- Duration choices: 5 / 10 / 30 seconds.
+- Video format is shown in Music Cut Studio.
+- Camera take is captured raw first.
+- A Final Video Editor appears after recording, before download/share.
+- User can change the motion design and move logo, brand name, and caption without retaking.
+- Final render bakes the edited template + selected song cut.
+
+SHARE DURATION HOTFIX
+- WebM → MP4 conversion regenerates PTS from a fixed 30fps frame count.
+- MP4 output is forced to the selected duration, fixing 10s video becoming ~3–4s in share.
+
+SAFETY
+- firebase-config.js not included/modified.
+- database.rules.json unchanged.

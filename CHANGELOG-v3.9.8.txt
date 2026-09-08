@@ -1,0 +1,28 @@
+Thanksgiving v3.9.8 — Exclusive Welcome + Music Cut Studio
+
+WELCOME / OCCASION
+- Welcome and Occasion logos are now pure logo images: no card, border, plate, padding, or logo container styling.
+- Welcome animation upgraded with interactive pointer light, 3D cassette tilt, tap-to-react cassette, particle bursts,
+  orbit copy, scan line, live chip, title shimmer line, and brand-aware glow.
+- Lobby music and existing SFX behavior from v3.9.7 are preserved.
+- Occasion header keeps the pure logo and receives subtle brand aura polish.
+- Mobile and desktop layouts receive dedicated sizing so elements do not collide.
+
+MUSIC CUT STUDIO
+- Choosing Video now opens a new Music Cut Studio before Motion Studio.
+- The already-selected song is shown again with a waveform/timeline.
+- User can drag the selected section to choose the exact favorite part.
+- Clip durations: 5s / 7s / 10s (disabled automatically if the audio is shorter).
+- Preview the selected clip before recording.
+- "Dari awal" resets the cut.
+- "Cari bagian seru" finds a higher-energy waveform section locally.
+- Motion Studio shows the chosen cut and lets the user edit it again.
+- Video recording seeks the selected song to that exact timestamp and uses the chosen clip duration.
+- After recording, music pauses and returns to the selected cut start.
+
+VIDEO SHARE
+- v3.9.7 direct-share / MP4 compatibility pipeline is intentionally retained unchanged.
+
+SAFETY
+- firebase-config.js is not included or modified.
+- database.rules.json is unchanged.

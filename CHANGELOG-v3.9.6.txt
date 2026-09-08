@@ -1,0 +1,37 @@
+Thanksgiving v3.9.6 — Welcome / Occasion Flow + Video Sync Hotfix
+
+FIXED
+- Draggable video brand assets now use one normalized geometry system for both
+  live preview and recorded canvas output.
+- Text assets use top-left anchoring in both preview and final video.
+- Live asset font size is synchronized to camera width with ResizeObserver.
+- Video Share now attempts native file share even on Android browsers with
+  inconsistent canShare() reporting, then falls back to Save.
+- MP4 remains preferred when supported; WebM remains fallback.
+
+NEW FLOW
+Scan QR
+→ Welcome Gateway
+→ Dedicated Occasion Selection
+→ Birthday setup when needed
+→ Existing Regular/Special Occasion Intro
+→ Main experience
+
+WELCOME GATEWAY
+- app name, logo, brand name, tagline, primary/accent colors all come from Admin branding
+- no Tianlala wording is hardcoded
+- premium cassette / orbit / waveform motion
+- first CTA also unlocks audio interaction
+
+OCCASION PAGE
+- only Admin-enabled occasions are shown
+- animated premium cards
+- current occasion highlighted
+- back to Welcome
+- Birthday asks name + age + optional message before its intro
+
+UNCHANGED
+- Firebase config is not included or modified
+- Firestore rules unchanged
+- gacha/audio/menu core kept
+- existing regular cassette intro kept; the temporary occasion dock is removed from it

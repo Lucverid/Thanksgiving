@@ -1,0 +1,11 @@
+Thanksgiving v3.9.7 — Welcome Sound + Direct Share Compatibility
+
+- Welcome now attempts Admin-configured lobby music immediately.
+- Existing browser autoplay fallback starts it on first touch when required.
+- Welcome uses existing Admin SFX for subtle click/spark/select effects.
+- Equalizer moved from below cassette into the Powered-by brand lockup.
+- Occasion header alignment rebuilt for mobile and desktop.
+- WebM recordings prepare an MP4 share copy locally in-browser via ffmpeg.wasm.
+- Share button waits until the MP4 is ready, then calls native navigator.share directly.
+- File-only native share is attempted if a target rejects title/text.
+- Firebase config is not included or modified.

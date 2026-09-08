@@ -1,0 +1,13 @@
+Thanksgiving v3.9.5 — Mobile Capture Polish
+
+- Occasion selector moved into first scan/intro page.
+- Occasion UI restyled to compact animated pills.
+- Story/Reels camera preview centered on mobile.
+- Removed the extra occasion icon from photo output.
+- Photo custom assets: logo, brand name, brand caption; all draggable and clamped.
+- Video designs: Clean, Cassette, Meong, Pulse, Editorial.
+- Video brand logo/name/caption draggable in live preview and applied to recording.
+- Separate Save Video and Share Video actions.
+- Funny 3-second countdown before photo and video capture.
+- Responsive mobile polish.
+- Firebase config not included or modified.

@@ -1,0 +1,41 @@
+Thanksgiving v3.10.0 — Hero Experience Studio
+
+CUSTOMER HERO
+- The existing landing hero is now configurable from Admin.
+- Six hero models:
+  1. Drink / Order Counter
+  2. Drink / Vinyl Bar
+  3. Food / Cafe Plate
+  4. Food / Dessert Session
+  5. Food + Drink / Perfect Pairing
+  6. Food + Drink / Editorial Duo
+- Hero colors automatically follow Primary / Background / Accent from Brand Kit.
+- Hero logo uses the current Admin brand logo.
+- Food mode changes regular headline to "Makananmu punya soundtrack."
+- Food + Drink mode changes regular headline to "Food & drink-mu punya soundtrack."
+- Product chip icon follows Drink / Food / Combo.
+- Phone player, order card, and Meong bubble can each be enabled/disabled.
+- Optional custom headline and custom Meong line.
+- Fixed model or random rotation across enabled models.
+
+ADMIN
+- New "Hero Experience Studio" inside Brand & Vibe.
+- Choose Drink / Food / Food+Drink.
+- Choose main model.
+- Enable/disable models in Model Library.
+- Tap a model preview to make it the main model.
+- Fixed or Random display mode.
+- Optional custom headline and Meong copy.
+- Toggle phone player / order card / Meong.
+
+RESPONSIVE
+- Dedicated mobile scaling down to 335px.
+- Tablet/desktop landing becomes a two-column hero/content composition.
+- Hero objects reposition per breakpoint to avoid collision.
+
+SAFETY
+- Based directly on v3.9.9.1 cassette color hotfix.
+- Existing Welcome, Occasion, QR, Music Cut Studio, Video Final Editor, share pipeline,
+  gacha, audio, menu and cassette intro are retained.
+- firebase-config.js is not included or modified.
+- database.rules.json is unchanged.

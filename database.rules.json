@@ -1,0 +1,13 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "audio": {
+      ".read": "auth != null && auth.uid === 'keFUW39oQDeo4u4i2OQEusxCKqX2'",
+      "$audioId": {
+        ".read": true,
+        ".write": "auth != null && auth.uid === 'keFUW39oQDeo4u4i2OQEusxCKqX2'"
+      }
+    }
+  }
+}

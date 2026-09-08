@@ -1,0 +1,13 @@
+Thanksgiving v3.9.9.1 — Cassette Brand Color Hotfix
+
+FIXED
+- Regular cassette no longer uses the old hardcoded yellow/brown palette.
+- Cassette body follows Admin Brand > Primary.
+- Cassette shadows/window/details follow Brand > Background/Secondary.
+- Small glow details follow Brand > Accent.
+- Existing cassette layout, interaction, animation, and intro flow are unchanged.
+
+SAFETY
+- firebase-config.js is not included or modified.
+- database.rules.json unchanged.
+- QR, video editor, Music Cut Studio, share pipeline, gacha, audio and menu logic unchanged.

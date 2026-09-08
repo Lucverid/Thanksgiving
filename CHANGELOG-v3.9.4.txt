@@ -1,0 +1,23 @@
+Thanksgiving v3.9.4 — Capture Studio
+
+ADDED ONLY FROM USER-PROVIDED v3.9.1 BASE:
+- Occasion rail on customer main page
+- Animated all-occasion picker
+- Birthday user setup: name, age, optional message
+- Admin Soundscape checkbox alignment polish
+- Capture confirmation: Photo or Video
+- Photo formats: IG Post 4:5, IG Story 9:16, IG Square 1:1, IG Reels 9:16
+- Camera viewport directly follows selected format
+- Photo export follows selected output size without destroying legacy template rendering
+- Draggable logo + occasion icon, clamped inside photo
+- New personal brand templates: Brand Cassette, Brand Pulse, Brand Meong
+- Video Motion Studio: 7-second branded recording
+- Optional selected soundtrack capture when supported by the browser
+- MP4 preferred when browser MediaRecorder supports MP4, WebM fallback otherwise
+- Video share/save locally; no server upload
+
+UNCHANGED INTENTIONALLY:
+- firebase-config.js is NOT included or modified
+- Firebase project credentials are not touched
+- database.rules.json unchanged
+- existing intro/gacha/audio/menu logic retained
